@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selector and more designing</title>
+    <style>
+        .cart{
+            border: 3px solid rgb(181, 244, 173);
+            background-color: rgb(227, 189, 189);
+            /* margin: 100px; */
+            padding: 20px;
+            margin: auto;
+            width: 800px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: white;
+            color:red;
+        }
+        a:visited{
+            background-color:yellow;
+        }
+        a:active{
+
+            color: rgb(231, 19, 19);
+            
+        }
+        .btn{
+            background-color: rgb(187, 187, 232);
+            /* border:2px solid rgb(242, 252, 101); */
+            padding: 4px;
+            margin: auto;
+            border:none;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           font-weight: bold ;
+            
+        }
+        .btn:hover{
+            background-color: blue; 
+            color: aqua;    
+
+        }
+    </style>
+</head>
+<body>
+    <div class="cart" id="cart1">
+        <h2>This is my heading</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, velit?
+             Assumenda ullam magni beatae ipsum quas vel nostrum. Officia nam similique
+              voluptate, fugiat itaque molestiae, dolorum esse vel soluta aut in sed dolore temporibus 
+            iure numquam exercitationem, a blanditiis cupiditate!</p>
+        <a href="https://yahoo.com" target = "blanck"class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+
+    </div>
+</body>
+</html>
