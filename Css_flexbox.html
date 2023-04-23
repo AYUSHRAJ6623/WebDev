@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Tutorial</title>
+</head>
+<style>
+    .cart {
+        height: 500px;
+        width: 100%;
+        border: 4px solid black;
+
+
+        /* Initialize the cart as a flex box */
+
+
+        display: flex;
+
+
+        /* Flex properties for flex cart */
+
+        
+         /* Default value of flex direction */
+        flex-direction: row;
+
+       
+        /* flex-direction: row-reverse;
+        flex-direction: column-reverse;
+        flex-direction: column; */
+
+
+        /* flex-wrap: wrap; */
+
+
+        /* Flex-flow is used when we uses both Flex-wrap and Flex-direction. */
+        /* flex-flow: row-reverse wrap; */
+
+
+        /* Justify content will justify the content in horizontal direction */
+
+
+        /* Through this content our boxes automatically set in center */
+        /* justify-content:center; */
+
+
+        /* Through this content our boxes leave even spaces around itslef */
+        /* justify-content: space-between; */
+
+
+        /* Through this content our boxes leave even space around itself including starting and ending */
+        /* justify-content: space-around; */
+
+
+        /* To set boxes vertically center */
+        /* align-items: center; */
+
+
+        /* To set boxes at bottom and leaving even space around itself */
+        /* align-items: flex-end; */
+
+
+        /* To set boxes at top and leaving even space around itself */
+        /* align-items: flex-start; */
+
+
+        /* The flexbox items will stretch across the whole cross axis.  */
+        /* align-items:stretch; */
+
+
+
+    }
+
+    .item {
+        background-color: greenyellow;
+        border: 3px solid tomato;
+        margin: 12px;
+        padding: 4px;
+        height: 100px;
+        width: 100px;
+    }
+
+    #item1 {
+        /* Higher the order,later it shows up in the container */
+        /* order: 4; */
+    }
+
+    #item2 {
+        flex-grow: 4 ;
+
+    }
+
+    #item3 {
+        order: 666;
+        
+    }
+    #item4{
+        /* When flex-direction: is set to row flex basis will control width: */
+        /* When flex-direction: is set to column flex basis will control height: */
+        flex-basis: 340px;
+    }
+</style>
+
+<body>
+    <h1>This Is Flexbox Tutorial</h1>
+    <div class="cart">
+        <div class="item" id="item1">First Box</div>
+        <div class="item" id="item2">Second Box</div>
+        <div class="item" id="item3">Third Box</div>
+        <div class="item" id="item4">Fourth Box</div>
+        <div class="item" id="item5">Fifth Box</div>
+        <div class="item" id="item6">Sixth Box</div>
+    </div>
+</body>
+
+</html>
