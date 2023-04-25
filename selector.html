@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MORE SELECTOR</title>
+    <style>
+        /* When p is right inside div then this CSS applied  */
+        div>p {
+            background-color: greenyellow;
+            color: gray;
+            font-weight: bold;
+        }
+
+        /* If p are contained by li and li is contained by ul which is contained by div */
+        div ul li p {
+            background-color: pink;
+            color: gray;
+            font-weight: bold;
+        }
+
+        /* If p is right after div / p is next sibiling of div*/
+        div+p {
+            color: aqua;
+            background-color: rgb(63, 62, 61);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is more about selector</h1>
+    <div class="cart">
+        <div class="row">
+            <li>
+                <p>This sentence is in li.</p>
+            </li>
+            <ul>
+                <li>
+                    <p>This sentence is in ul > li > p </p>
+                </li>
+            </ul>
+            <p>This is sentence in p</p>
+            <p>This is another sentence in p</p>
+        </div>
+
+    </div>
+    <p>This is outermost sentence</p>
+</body>
+
+</html>
