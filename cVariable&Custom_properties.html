@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Variable/Custom Properties</title>
+    <style>
+        :root{
+            --Univesal-color:purple;
+        }
+        .cart{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        .box{
+            /* This is how variable is  declared to use colour */
+            --colour-color:rgb(245, 179, 65);
+            background-color: yellowgreen;
+            border: 3px solid royalblue;
+            height: 150px;
+            width: 150px;
+            margin: 4px 5px;
+            padding: 5px 7px;
+            /* This is local var which is used inside only in loop in which var is declared. */
+            background-color:var(--colour-color) ;
+            /* This is univesal var which is used inside whole code on this page. */
+            background-color:var(--Univesal-color);
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="cart">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

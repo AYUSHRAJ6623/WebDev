@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Css Transition</title>
+</head>
+<style>
+    body{
+        background-color: aqua;
+    }
+    #box{
+        display:flex;
+        background-color: pink;
+        height: 230px;
+        width: 230px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        /* transition-property: background-color;
+        transition-duration: 3s;
+        transition-timing-function: ease-in-out; */
+
+        /* TRANSITION SHORT HAND PROPERTY IN ONE LINE  */
+        transition: background-color 2s ease-in-out 0.1s;
+    }
+    #box:hover{
+        background-color: greenyellow;
+        height: 350px;
+        width: 800px;
+        font-size: 45px;
+    }
+</style>
+<body>
+    <h2>This is CSS Transition lecture...</h2>
+    <div class="cart">
+        <div id="box">
+            This Is Box.
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+/* Css Reset */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#navbar{
+    position: relative;
+}
+/* Navigation Bar */
+#navbar{
+     display: flex;
+     align-items: center;
+}
+/* Navigation Bar :logo and images */
+.logo{
+    margin: 3px 8px;
+}
+.logo img{
+    margin: 5px 14px;
+    height: 45px;
+}
+/*  Navigation Bar :list styling */
+#navbar ul{
+    display: flex;
+    font-family: 'Teko', sans-serif;
+}
+#navbar::before{
+    content: " ";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+#navbar ul li a{
+    display: block;
+    border-radius: 6px solid black;
+    text-decoration: none;
+    padding: 1px 6px;
+    color:yellow;
+    border-radius: 15px;
+}
+
+#navbar ul li a:hover{
+    
+    color: black;
+    background-color: aliceblue;
+}
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 200px;
+    align-items: center;
+    justify-content: center;
+}
+#home::before{
+    content: " ";
+    background:url('P3/front.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    z-index: -1;
+    height: 350px;
+}
+/* Services Section */
+
+
+#services{
+    margin:30px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid black;
+
+
+}
+#services{
+
+}
+/* Utility class */
+
+
+.h-primary{
+font-size: 3rem;
+padding: 15px;
+}
+.h-secondry{
+    font-size: 1.5rem;
+    padding: 15px;
+ }
+#home h1{
+    color: black(74, 146, 210);
+    text-align: center;
+    font-family: 'Playball', cursive;
+}
+#home p{
+    color:white;
+    font-size: 1.2rem;
+    font-family: 'Playball', cursive;
+}
+.btn{
+    background-color:gray;
+    color: black;
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 15px;
+    padding: 3px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+/* Services Section */
+

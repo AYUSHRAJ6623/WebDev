@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+</head>
+<style>
+    .cart{
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-color: chartreuse;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aquamarine;
+        border-radius: 5px;
+        border: 5px solid black;
+        height: 200px;
+        width: 200px;
+        transition: all 2s ease-in-out;
+    }
+    .box:hover{
+        transform: rotate(45deg);
+        transform: scale(2);
+        transform: skew(45deg);
+        transform: translate(123px);
+    }
+</style>
+<body>
+    <div class="cart">
+        <div class="box">
+            This is box
+        </div>
+    </div>
+</body>
+</html>

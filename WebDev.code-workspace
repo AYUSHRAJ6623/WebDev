@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../C++and DSA"
+		},
+		{
+			"path": "../C_Program"
+		},
+		{
+			"path": "../MyCodes"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WebDev"
+	}
+}

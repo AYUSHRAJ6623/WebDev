@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box and Text Shadow</title>
+</head>
+<style>
+    .cart {
+        display: flex;
+    }
+
+    .card {
+        margin: 5px 5px;
+        padding: 12px 7px;
+        border: 3px solid yellowgreen;
+        /* Offset of x and y colour. */
+        box-shadow: 3px 5px yellow;
+        /* Offset of +x and -y colour. */
+        /* To add box shadow in upward use -ve values of x and y. */
+        box-shadow: -3px -5px plum;
+        /* Offset of x,y and blur radius. */
+        box-shadow: 2px 5px 20px goldenrod;
+        /* Offset of x,y,blur radius and spread radius */
+        box-shadow: 2px 5px 9px 5px rebeccapurple;
+        /* To add shadow inside the box. */
+        box-shadow: inset 5px 9px black;
+        /* To use multiple shadow use. */
+        box-shadow: 2px 4px gold , 5px 7px red;
+    }
+   .card h2{
+    text-shadow: 4px 1.5px  wheat;
+   }
+</style>
+
+<body>
+    <div class="cart">
+        <div class="card" id="card1">
+            <h2>card-1
+            </h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Rerum, accusantium commodi optio facilis aut delectus
+                magni dolorum mollitia. Hic, quae.
+
+            </p>
+        </div>
+        <div class="card" id="card2">
+            <h2>card-2
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Expedita officia placeat id maiores saepe cum magni quo
+                aliquid animi possimus.
+            </p>
+        </div>
+        <div class="card" id="card3">
+            <h2>card-3
+            </h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Eligendi voluptatibus repellat omnis.
+                 Sit veniam nihil eius tenetur laborum dolore doloremque!
+            </p>
+        </div>
+    
+    </div>
+</body>
+
+</html>

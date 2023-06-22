@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation and Keyframes</title>
+</head>
+<style>
+    .cart {
+        background-color: yellow;
+    }
+
+    .box {
+        background-color: yellowgreen;
+        height: 150px;
+        width: 150px;
+        /* animation-name: ayush1; */
+        animation-name: ayush2;
+        animation-duration: 10s;
+        position: relative;
+        animation-iteration-count: 1;
+        /* animation-fill-mode: alternate; */
+        /* animation-timing-function: ease-in-out; */
+        /* animation-direction: reverse; */
+
+    }
+
+    @keyframes ayush2 {
+        0% {
+            top: 0px;
+            left:0px
+        }
+
+        25% {
+            top: 0px;
+            left: 150px;
+        }
+
+         50% {
+            top:0px;
+            left: 150px;
+        } 
+        75%{
+            top:150px;
+            right:150px;
+        }
+
+        100% {
+            top: 0px;
+            left: 0px;
+
+        }
+    }
+
+    @keyframes ayush1 {
+        from {
+            width: 200px;
+            
+
+        }
+
+        to {
+            width: 1500px;
+            
+        }
+    }
+</style>
+
+<body>
+    <div class="cart">
+        <div class="box">
+            This is ANIMATION.
+        </div>
+    </div>
+</body>
+
+</html>
