@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.side-bar {
+    width: 8vw;
+    height: 100vh;
+    /* border: 2px solid red; */
+    position:sticky;
+    top: 0.5px;
+}
+
+.side-bar img {
+    width: 80px;
+    height: 70px;
+    margin: 20px 15px;
+}
+.suscribe{
+    height: 40px;
+    width: 70px;
+    color: white;
+    font-size: 13px;
+    border: 2px solid gainsboro;
+    display: flex;
+    gap: 10px;
+}
+.sub{
+ margin: 20px auto;
+ color: red;
+}
+
+.account {
+    height: 50px;
+    width: 30px;
+    color: grey;
+    margin: 80px 30px;
+
+}
+
+
+.profile {
+    margin: 20px auto;
+}
+
+.search {
+    margin: 20px auto;
+}
+
+.home {
+    margin: 20px auto;
+}
+
+.tv {
+    margin: 20px auto;
+}
+
+.movie {
+    margin: 20px auto;
+}
+
+.sports {
+    margin: 20px auto;
+}
+.background img{
+    height: 600px;
+    width: 1056px;
+    margin-left: 60px;
+   
+}
+.cart{
+    display: flex;
+}
+
+.maha h1{
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    font-size: 60px;
+    font-family:Caveat - Google FontsCaveat - Google Fonts;
+    color:rgb(236, 104, 16);
+}
+
+.mor img{
+    /* height: 200px; */
+    width: 40%;
+    /* mix-blend-mode: multiply; */
+}
+
+.year{
+    display: flex;
+    position: absolute;
+    font-size: 23px;
+    top: 280px;
+    left: 150px;
+    gap: 20px;
+    
+}

@@ -1,0 +1,919 @@
+
+.cart img {
+    height: 50px;
+    margin: 5px 100px;
+    color: red;
+    position: absolute;
+}
+
+
+.search-bar p {
+    position: absolute;
+    display: flex;
+    border-radius: 3px;
+    margin: 5px 350px;
+}
+
+
+.search-bar input {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 40px;
+}
+
+
+.glass p {
+    margin: 16px 630px;
+}
+
+
+.right {
+    position: absolute;
+    display: inline-block;
+}
+
+
+.right p {
+    width: 110px;
+    font-size: 14px;
+    margin: 20px 900px;
+    padding: 4px;
+    border-radius: 6px;
+    position: absolute;
+}
+
+
+.globe {
+    padding-top: 20px;
+    margin: 1px 1045px;
+}
+
+
+.profile {
+    margin: 0px 110px;
+}
+
+
+.tag1 {
+    position: absolute;
+    padding: 4px 15px;
+    margin: 1px 10px;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    width: 50px;
+}
+
+
+.tag2 {
+    position: absolute;
+    margin: 6.5px 50px;
+}
+
+
+.para p {
+    /* margin-top: 200px; */
+}
+
+
+.head h3 {
+    margin: 10px 100px;
+    font-size: 30px;
+}
+
+
+.star {
+    position: absolute;
+    margin: 1px 90px;
+    color: black;
+}
+
+
+.star p {
+    display: inline-block;
+    margin: 5px 15px;
+}
+
+
+.star a {
+    text-decoration: underline;
+}
+
+
+.share {
+    position: absolute;
+    display: flex;
+    margin: 1px 1000px;
+    gap: 2px;
+    color: black;
+}
+
+
+.share p {
+    position: absolute;
+    display: flex;
+    margin: 1px 25px;
+    text-decoration: underline;
+}
+
+
+.save {
+    color: black;
+    position: absolute;
+    display: flex;
+    margin: 1px 1100px;
+    gap: 5px;
+}
+
+
+.save p {
+    position: absolute;
+    display: flex;
+    margin: 1px 25px;
+    gap: 5px;
+    text-decoration: underline;
+}
+
+
+.p1 img {
+    top: 220px;
+    height: 315px;
+    width: 550px;
+    border-radius: 9px;
+}
+
+
+.p2 img {
+    margin: 76px 655px;
+    height: 150px;
+    width: 280;
+}
+
+
+.p3 img {
+    margin: 76px 890px;
+    height: 150px;
+    width: 280;
+}
+
+
+.p4 img {
+    margin: 235px 655px;
+    height: 150px;
+    width: 280;
+}
+
+
+.p5 img {
+    margin: 235px 890px;
+    height: 150px;
+    width: 280;
+}
+
+
+.side {
+    width: 600px;
+    margin: 450px 100px;
+}
+
+
+.side h2 {
+    padding: 2px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.p6 img {
+    margin: 1.5px 500px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+}
+
+
+.t6 img {
+    position: absolute;
+    margin: 45px 515px;
+    height: 25px;
+}
+
+
+.content {
+    color: black;
+    display: flex;
+    list-style: none;
+    padding: 1px 15px;
+    gap: 15px;
+}
+
+
+.disc h4 {
+    font-size: 20px;
+    margin: 5px 10px;
+    padding: 1px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.disc p {
+    padding-left: 10px;
+    margin: 1px 10px;
+}
+
+
+.air img {
+    height: 25px;
+    width: 130px;
+    padding: 1px 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.air p {
+    display: inline-block;
+    margin-top: 70px;
+    padding: 1px 14px;
+}
+
+
+.air a {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+
+.air2 p {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 1px 14px;
+}
+
+
+.air2 a {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+
+.side2 {
+    border: 2px solid silver;
+    box-shadow: 2px 2px 3px 3px gray;
+    border-radius: 15px;
+    height: 500px;
+    width: 380px;
+    top: 550px;
+    left: 730px;
+    position: absolute;
+}
+
+
+.side2 h3 {
+    margin-left: 20px;
+}
+
+
+.star2 p {
+    display: inline-block;
+    margin-left: 200px;
+    top: 5px;
+    position: absolute;
+}
+
+
+.star2 a {
+    display: inline-block;
+    margin-left: 260px;
+    position: absolute;
+    top: 26px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.check {
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 15px;
+    width: 300px;
+    height: 130px;
+    margin: 2px 35px;
+}
+
+
+.c-in p {
+    padding: 1px 15px;
+}
+
+
+.bdr {
+    border-left: 1px solid rgb(37, 37, 37);
+    height: 71px;
+    position: absolute;
+    top: 60px;
+    left: 180px;
+}
+
+
+.c-out {
+    position: absolute;
+    left: 200px;
+    top: 60px;
+}
+
+
+.guest p {
+    font-size: 16px;
+    padding: 1px 10px;
+}
+
+
+.guest img {
+    height: 18px;
+    width: 18px;
+    padding: 2px 150px;
+}
+
+
+.reserve {
+    background-color: rgb(246, 49, 82);
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+.reserve p {
+    padding: 15px 120px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.count p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+
+.bill {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.bill p {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.bill a {
+    position: absolute;
+    top: 310px;
+    left: 250px;
+}
+
+
+.fee {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.fee p {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.fee a {
+    position: absolute;
+    top: 350px;
+    left: 250px;
+}
+
+
+.total {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.total p {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.total a {
+    position: absolute;
+    top: 415px;
+    left: 250px;
+}
+
+
+.bed p {
+    margin-top: 70px;
+    padding: 2px 30px;
+}
+
+
+.bed h4 {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.b1 {
+    border: 2px solid silver;
+    border-radius: 15px;
+    height: 130px;
+    width: 180px;
+}
+
+
+.b2 {
+    border: 2px solid silver;
+    border-radius: 15px;
+    height: 130px;
+    width: 180px;
+    position: absolute;
+    margin-left: 200px;
+    top: 1455px;
+}
+
+
+.b3 {
+    border: 2px solid silver;
+    border-radius: 15px;
+    height: 130px;
+    width: 180px;
+    position: absolute;
+    margin-left: 400px;
+    top: 1455px;
+}
+
+
+.b1 img {
+    height: 40px;
+    left: 40px;
+    margin-top: 20px;
+}
+
+
+.b2 img {
+    height: 40px;
+    right: 10px;
+    margin-top: 20px;
+}
+
+
+.b3 img {
+    height: 40px;
+    right: 10px;
+    margin-top: 20px;
+}
+
+
+.offer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.offer h4 {
+    font-size: 25px;
+}
+
+
+.i1 img {
+    height: 30px;
+    width: 30px;
+    left: 10px;
+    top: 1730px;
+}
+
+
+.i1 p {
+    margin: 2px 35px;
+}
+
+
+.i2 img {
+    height: 30px;
+    width: 30px;
+    left: 10px;
+    top: 1780px;
+}
+
+
+.i2 p {
+    margin: 30px 40px;
+}
+
+
+.i3 img {
+    height: 30px;
+    width: 30px;
+    left: 10px;
+    top: 1830px;
+}
+
+
+.i3 p {
+    margin: 35px 40px;
+}
+
+
+.i4 img {
+    height: 30px;
+    width: 30px;
+    left: 10px;
+    top: 1880px;
+}
+
+
+.i4 p {
+    margin: 30px 40px;
+}
+
+
+.i5 img {
+    height: 30px;
+    width: 30px;
+    left: 10px;
+    top: 1930px;
+}
+
+
+.i5 p {
+    margin: 30px 40px;
+}
+
+
+.i6 img {
+    height: 30px;
+    width: 30px;
+    left: 350px;
+    top: 1730px;
+}
+
+
+.i6 p {
+    position: absolute;
+    margin: 30px 380px;
+    top: 1710px;
+
+}
+
+
+.i7 img {
+    height: 30px;
+    width: 30px;
+    left: 350px;
+    top: 1780px;
+}
+
+
+.i7 p {
+    position: absolute;
+    margin: 30px 380px;
+    top: 1760px;
+}
+
+
+.i8 img {
+    height: 30px;
+    width: 30px;
+    left: 350px;
+    top: 1830px;
+}
+
+
+.i8 p {
+    position: absolute;
+    margin: 30px 380px;
+    top: 1810px;
+}
+
+
+.i9 img {
+    height: 30px;
+    width: 30px;
+    left: 350px;
+    top: 1880px;
+}
+
+
+.i9 p {
+    position: absolute;
+    margin: 30px 380px;
+    top: 1860px;
+
+}
+
+
+.i10 img {
+    height: 30px;
+    width: 30px;
+    left: 350px;
+    top: 1930px;
+}
+
+
+.i10 p {
+    position: absolute;
+    margin: 35px 380px;
+    top: 1910px;
+}
+
+.show {
+    border: 2px solid silver;
+    border-radius: 10px;
+    height: 50px;
+    width: 180px;
+    cursor: pointer;
+}
+
+
+.show p {
+    text-align: center;
+}
+
+.out img {
+    height: 30px;
+    width: 30px;
+    left: 15px;
+}
+
+.out p {
+    font-size: 20px;
+    padding: 12px 50px;
+}
+
+.Features {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.stl z1 {
+    border-top: 3px solid grey;
+    width: 200px;
+    position: absolute;
+    top: 2150px;
+    left: 350px;
+}
+
+.stl z2 {
+    border-top: 3px solid grey;
+    width: 200px;
+    position: absolute;
+    top: 2188px;
+    left: 350px;
+}
+
+.stl z3 {
+    border-top: 3px solid grey;
+    width: 200px;
+    position: absolute;
+    top: 2224px;
+    left: 350px;
+}
+
+.rv {
+    font-size: 15px;
+}
+
+.rv p1 {
+    position: absolute;
+    top: 2140px;
+    left: 560px;
+}
+
+.rv p2 {
+    position: absolute;
+    top: 2175px;
+    left: 560px;
+}
+
+.rv p3 {
+    position: absolute;
+    top: 2213px;
+    left: 560px;
+}
+
+
+.sty z1 {
+    border-top: 3px solid grey;
+    width: 200px;
+    position: absolute;
+    top: 2150px;
+    left: 860px;
+}
+
+.sty z2 {
+    border-top: 3px solid grey;
+    width: 200px;
+    position: absolute;
+    top: 2188px;
+    left: 860px;
+}
+
+.sty z3 {
+    border-top: 3px solid grey;
+    width: 200px;
+    position: absolute;
+    top: 2224px;
+    left: 860px;
+}
+
+.rve {
+    font-size: 15px;
+}
+
+.rve p1 {
+    position: absolute;
+    top: 2140px;
+    left: 1070px;
+}
+
+.rve p2 {
+    position: absolute;
+    top: 2175px;
+    left: 1070px;
+}
+
+.rve p3 {
+    position: absolute;
+    top: 2213px;
+    left: 1070px;
+}
+
+.f2 a1 {
+    position: absolute;
+    top: 2135px;
+    left: 625px;
+
+}
+
+.f2 a2 {
+    position: absolute;
+    top: 2177px;
+    left: 625px;
+
+}
+
+.f2 a3 {
+    position: absolute;
+    top: 2210px;
+    left: 625px;
+
+}
+
+.client {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.username1 p {
+    position: absolute;
+    font-size: 10px;
+    margin: 67px 55px;
+}
+
+.c1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 30px;
+    margin: 50px 70px;
+}
+
+.c1 p {
+    font-size: 15px;
+    top: 2350px;
+    left: 100px;
+    position: absolute;
+}
+
+.username2 p {
+    position: absolute;
+    font-size: 10px;
+    margin: 250px 55px;
+   
+}
+
+.c2 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 30px;
+    margin: 410px 70px;
+}
+
+.c2 p {
+    font-size: 15px;
+    top: 2530px;
+    left: 100px;
+    position: absolute;
+}
+
+
+.username3 p {
+    position: absolute;
+    font-size: 10px;
+    margin: 425px 55px;
+   
+}
+
+.c3 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 30px;
+    margin: 235px 70px;
+}
+
+.c3 p {
+    font-size: 15px;
+    top: 2710px;
+    left: 100px;
+    position: absolute;
+}
+
+
+.username4 p {
+    position: absolute;
+    font-size: 10px;
+    margin: 67px 565px;
+}
+
+.c4 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 50px 500px;
+}
+
+.c4 p {
+    font-size: 15px;
+    top: 2350px;
+    left: 610px;
+    position: absolute;
+}
+
+
+.username5 p {
+    position: absolute;
+    font-size: 10px;
+    margin: 250px 565px;
+}
+
+
+.c5 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 235px 500px;
+}
+
+.c5 p {
+    font-size: 15px;
+    top: 2530px;
+    left: 610px;
+    position: absolute;
+}
+
+
+.username6 p {
+    position: absolute;
+    font-size: 10px;
+    margin: 425px 565px;
+}
+
+.c6 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 410px 500px;
+}
+
+.c6 p {
+    font-size: 15px;
+    top: 2710px;
+    left: 610px;
+    position: absolute;
+}
+
+.submit{
+    border: 2px solid grey;
+    height: 60px;
+    width: 170px;
+    border-radius: 10px;
+    background-color: white;
+    top: 2800px;
+    position: absolute;
+    
+}
+.submit p{
+    margin: 20px 13px;
+}

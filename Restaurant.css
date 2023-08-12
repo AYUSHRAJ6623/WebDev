@@ -1,0 +1,55 @@
+.cart {
+    border: 6px solid rgb(214, 245, 214);
+    width: 350px;
+    height: 400px;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 10px;
+}
+.cart img {
+    padding: 5px auto;
+    width: 100%;
+    border-radius: 15px ;
+}
+.title {
+    text-align: center;
+    font-size: 20px;
+}
+.tag{
+    position: absolute;
+    background-color: blue;
+    color: white;
+    top: 190px;
+    border-radius: 3px;
+    margin:10px;
+}
+
+.tag2{
+    position: absolute;
+    background-color:rgb(230, 228, 228);
+    top: 195px;
+    border-radius:5px;
+    padding: 0px 4px;    
+    color:black;
+    margin: 10px 280px;
+}
+.max{
+    
+    
+}
+.max p{
+    background-color: gold;
+    position: absolute;
+    font-size: 15px;
+    border-radius: 7px;
+
+}
+.last {
+    background-color: blue;
+ }
+
+.last p{
+    float: right;
+    font-size: 15px;
+  
+}

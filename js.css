@@ -1,0 +1,48 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+:root{
+    --light:white;
+}
+.cart{
+    margin: 70px 300px;
+    padding: 10px 20px;
+}
+.btn{
+   background-color: black;
+   color: var(--light);
+   border: none;
+   padding: 15px 30px;
+   border-radius: 10px;
+   cursor: pointer;
+   width: 100%;
+   font-size: 17px;
+}
+
+input{
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid lightgray;
+  
+}
+input:focus{
+    outline: none;
+    border:1px solid royalblue;
+}
+.head{
+    text-align: center;
+}
+.para{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    gap: 15px;
+}
+#result{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb.co.in</title>
+    <link rel="stylesheet" href="Air.css">
+</head>
+
+<body>
+    <div class="cart">
+
+        <div class="logo">
+            <img src="data:image/png;base64,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"
+                alt="">
+            <div class="search">
+                <p>Anywhere&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</p>
+                <p>Anyweek&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</p>
+                <p>Add guest</p>
+                <div class="s1">
+                    <div class="gls">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"
+                            role="presentation" focusable="false"
+                            style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 4; overflow: visible;">
+                            <path fill="none" d="M13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22zm8-3 9 9"></path>
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <div class="map">
+                <h3>Show map</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 16px; width: 16px; fill: var(--f-mkcy-f);"><path d="M31.25 3.75a2.29 2.29 0 0 0-1.01-1.44A2.29 2.29 0 0 0 28.5 2L21 3.67l-10-2L2.5 3.56A2.29 2.29 0 0 0 .7 5.8v21.95a2.28 2.28 0 0 0 1.06 1.94A2.29 2.29 0 0 0 3.5 30L11 28.33l10 2 8.49-1.89a2.29 2.29 0 0 0 1.8-2.24V4.25a2.3 2.3 0 0 0-.06-.5zM12.5 25.98l-1.51-.3L9.5 26H9.5V4.66l1.51-.33 1.49.3v21.34zm10 1.36-1.51.33-1.49-.3V6.02l1.51.3L22.5 6h.01v21.34z"></path></svg>
+            </div> -->
+
+
+            <div class="right">
+                <h4>Airbnb your home</h4>
+                <div class="r1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" aria-hidden="true" role="presentation"
+                        focusable="false" style="display: block; height: 16px; width: 16px; fill: currentcolor;">
+                        <path
+                            d="M8 .25a7.77 7.77 0 0 1 7.75 7.78 7.75 7.75 0 0 1-7.52 7.72h-.25A7.75 7.75 0 0 1 .25 8.24v-.25A7.75 7.75 0 0 1 8 .25zm1.95 8.5h-3.9c.15 2.9 1.17 5.34 1.88 5.5H8c.68 0 1.72-2.37 1.93-5.23zm4.26 0h-2.76c-.09 1.96-.53 3.78-1.18 5.08A6.26 6.26 0 0 0 14.17 9zm-9.67 0H1.8a6.26 6.26 0 0 0 3.94 5.08 12.59 12.59 0 0 1-1.16-4.7l-.03-.38zm1.2-6.58-.12.05a6.26 6.26 0 0 0-3.83 5.03h2.75c.09-1.83.48-3.54 1.06-4.81zm2.25-.42c-.7 0-1.78 2.51-1.94 5.5h3.9c-.15-2.9-1.18-5.34-1.89-5.5h-.07zm2.28.43.03.05a12.95 12.95 0 0 1 1.15 5.02h2.75a6.28 6.28 0 0 0-3.93-5.07z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
+                        focusable="false"
+                        style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 3; overflow: visible;">
+                        <g fill="none">
+                            <path d="M2 16h28M2 24h28M2 8h28"></path>
+                        </g>
+                    </svg>
+                    <div class="p1">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"
+                            role="presentation" focusable="false"
+                            style="display: block; height: 100%; width: 100%; fill: currentcolor;">
+                            <path
+                                d="M16 .7C7.56.7.7 7.56.7 16S7.56 31.3 16 31.3 31.3 24.44 31.3 16 24.44.7 16 .7zm0 28c-4.02 0-7.6-1.88-9.93-4.81a12.43 12.43 0 0 1 6.45-4.4A6.5 6.5 0 0 1 9.5 14a6.5 6.5 0 0 1 13 0 6.51 6.51 0 0 1-3.02 5.5 12.42 12.42 0 0 1 6.45 4.4A12.67 12.67 0 0 1 16 28.7z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="tags">
+            <div class="t1">
+                <img src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg" alt="">
+                <h4>farms</h4>
+            </div>
+            <div class="t2">
+                <img src="https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg" alt="">
+                <h4>Rooms</h4>
+            </div>
+            <div class="t3">
+                <img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="">
+                <h4>Amazing pool</h4>
+            </div>
+            <div class="t4">
+                <img src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg" alt="">
+                <h4>Amazing view</h4>
+            </div>
+            <div class="t5">
+                <img src="https://a0.muscache.com/pictures/1d477273-96d6-4819-9bda-9085f809dad3.jpg" alt="">
+                <h4>A-frame</h4>
+            </div>
+            <div class="t6">
+                <img src="https://a0.muscache.com/pictures/60ff02ae-d4a2-4d18-a120-0dd274a95925.jpg" alt="">
+                <h4>Vineyard</h4>
+            </div>
+            <div class="t7">
+                <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" alt="">
+                <h4>Omg!</h4>
+            </div>
+            <div class="t8">
+                <img src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg" alt="">
+                <h4>Cabins</h4>
+            </div>
+            <div class="t9">
+                <img src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg" alt="">
+                <h4>Beach fronts</h4>
+            </div>
+            <div class="t10">
+                <img src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt="">
+                <h4>Lake front</h4>
+            </div>
+            <div class="t11">
+                <img src="https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg" alt="">
+                <h4>Country side</h4>
+            </div>
+            <div class="t12">
+                <img src="https://a0.muscache.com/pictures/6ad4bd95-f086-437d-97e3-14d12155ddfe.jpg" alt="">
+                <h4>Island</h4>
+            </div>
+            <div class="t13">
+                <img src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt="">
+                <h4>Caves</h4>
+            </div>
+
+        </div>
+        <div class="display">
+            <div class="d1">
+                <div class="i1">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-908230132662186789/original/66be4f12-a8e9-4bfe-84e3-eb439e8cf124.jpeg?im_w=720"
+                        alt="">
+                    <h4>Pokhara,Nepal</h4>
+                    <p>Phewa Lake</p>
+                    <p>2-7 Jul</p>
+                    <p> <strong>₹1,509</strong>night</p>
+                </div>
+                <div class="i2">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-696249636457320500/original/29458096-b804-4bed-b3de-bfcb1aa50280.jpeg?im_w=720"
+                        alt="">
+                    <h4>Pokhara,Nepal</h4>
+                    <p>Phewa Lake</p>
+                    <p>1-6 Jul</p>
+                    <p> <strong>₹927</strong>night</p>
+                </div>
+                <div class="i3">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-738146574801149853/original/679b0a7b-edd1-4e84-90ce-649faa59d637.jpeg?im_w=720"
+                        alt="">
+                    <h4>Pokhara,Nepal</h4>
+                    <p>Phewa Lake</p>
+                    <p>1-6 Jul</p>
+                    <p><strong>₹1,483</strong>night</p>
+                </div>
+                <div class="i4">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-53034594/original/c8cb28af-fd03-4496-ae05-5cb3062a792b.jpeg?im_w=720"
+                        alt="">
+                    <h4>Khecheopalri Lake,India</h4>
+                    <p>Khechopalri Lake</p>
+                    <p>1-6 Jul</p>
+                    <p><strong>₹1,826</strong>night</p>
+                </div>
+            </div>
+            <div class="d2">
+                <div class="i1">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-817835141839161398/original/050e21ec-8675-4ff1-920f-f7d67e703c1b.jpeg?im_w=720"
+                        alt="">
+                    <h4>Pokhara,Nepal</h4>
+                    <p>Phewa Lake</p>
+                    <p>2-7 Jul</p>
+                    <p><strong>₹1,509</strong>night</p>
+                </div>
+                <div class="i2">
+                    <img src="https://a0.muscache.com/im/pictures/66251c9b-2f50-44c4-8372-7357486e888c.jpg?im_w=720"
+                        alt="">
+                    <h4>Pokhara,Nepal</h4>
+                    <p>Phewa Lake</p>
+                    <p>1-6 Jul</p>
+                    <p><strong>₹927</strong>night</p>
+                </div>
+                <div class="i3">
+                    <img src="https://a0.muscache.com/im/pictures/daebde8e-1124-474a-9d1b-f32efc895106.jpg?im_w=720"
+                        alt="">
+                    <h4>Pokhara,Nepal</h4>
+                    <p>Phewa Lake</p>
+                    <p>1-6 Jul</p>
+                    <p><strong>₹1,483</strong>night</p>
+                </div>
+                <div class="i4">
+                    <img src="https://a0.muscache.com/im/pictures/01b6be53-7214-4ac1-90af-0a2c7220b056.jpg?im_w=720"
+                        alt="">
+                    <h4>Khecheopalri Lake,India</h4>
+                    <p>Khechopalri Lake</p>
+                    <p>1-6 Jul</p>
+                    <p><strong>₹1,826</strong>night</p>
+                </div>
+            </div>
+
+            <div class="d3">
+                <div class="i1">
+                    <img src="https://a0.muscache.com/im/pictures/685303aa-0b69-463b-a79c-2c968a083361.jpg?im_w=720"
+                        alt="">
+                    <h4>Pokhara,Nepal</h4>
+                    <p>Phewa Lake</p>
+                    <p>2-7 Jul</p>
+                    <p><strong>₹1,509</strong>night</p>
+                </div>
+                <div class="i2">
+                    <img src="https://a0.muscache.com/im/pictures/ceb73d03-f129-4091-b807-2f39c3ad0932.jpg?im_w=720"
+                        alt="">
+                    <h4>Pokhara,Nepal</h4>
+                    <p>Phewa Lake</p>
+                    <p>1-6 Jul</p>
+                    <p><strong>₹927</strong>night</p>
+                </div>
+                <div class="i3">
+                    <img src="https://a0.muscache.com/im/pictures/f92115ac-d3d8-4ea8-9845-4e886df569be.jpg?im_w=720"
+                        alt="">
+                    <h4>Pokhara,Nepal</h4>
+                    <p>Phewa Lake</p>
+                    <p>1-6 Jul</p>
+                    <p><strong>₹1,483</strong>night</p>
+                </div>
+                <div class="i4">
+                    <img src="https://a0.muscache.com/im/pictures/7458803c-9575-4562-a953-e3a7160191a4.jpg?im_w=720"
+                        alt="">
+                    <h4>Khecheopalri Lake,India</h4>
+                    <p>Khechopalri Lake</p>
+                    <p>1-6 Jul</p>
+                    <p><strong>₹1,826</strong>night</p>
+                </div>
+            </div>
+            <div class="d4">
+                <div class="i1">
+                    <img src="https://a0.muscache.com/im/pictures/041e1894-4822-4cdf-880b-5cb19828a2f9.jpg?im_w=720"
+                        alt="">
+                    <h4>Pokhara,Nepal</h4>
+                    <p>Phewa Lake</p>
+                    <p>2-7 Jul</p>
+                    <p><strong>₹1,509</strong>night</p>
+                </div>
+                <div class="i2">
+                    <img src="https://a0.muscache.com/im/pictures/6329e728-da3a-48d1-80e3-768c7bfbef21.jpg?im_w=720"
+                        alt="">
+                    <h4>Pokhara,Nepal</h4>
+                    <p>Phewa Lake</p>
+                    <p>1-6 Jul</p>
+                    <p><strong>₹927</strong>night</p>
+                </div>
+                <div class="i3">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-838149295231702857/original/e6c1c9ed-858a-4f22-a21e-a9df40136b46.png?im_w=720"
+                        alt="">
+                    <h4>Pokhara,Nepal</h4>
+                    <p>Phewa Lake</p>
+                    <p>1-6 Jul</p>
+                    <p><strong>₹1,483</strong>night</p>
+                </div>
+                <div class="i4">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-28272031/original/80668523-9f10-406c-8073-707dffd18b61.jpeg?im_w=720"
+                        alt="">
+                    <h4>Khecheopalri Lake,India</h4>
+                    <p>Khechopalri Lake</p>
+                    <p>1-6 Jul</p>
+                    <p><strong>₹1,483</strong>night</p>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <h3>Show map</h3>
+            <div class="m"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true"
+                    role="presentation" focusable="false"
+                    style="display: block; height: 16px; width: 16px; fill: var(--f-mkcy-f);">
+                    <path
+                        d="M31.25 3.75a2.29 2.29 0 0 0-1.01-1.44A2.29 2.29 0 0 0 28.5 2L21 3.67l-10-2L2.5 3.56A2.29 2.29 0 0 0 .7 5.8v21.95a2.28 2.28 0 0 0 1.06 1.94A2.29 2.29 0 0 0 3.5 30L11 28.33l10 2 8.49-1.89a2.29 2.29 0 0 0 1.8-2.24V4.25a2.3 2.3 0 0 0-.06-.5zM12.5 25.98l-1.51-.3L9.5 26H9.5V4.66l1.51-.33 1.49.3v21.34zm10 1.36-1.51.33-1.49-.3V6.02l1.51.3L22.5 6h.01v21.34z">
+                    </path>
+                </svg></div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+.card {
+    text-align: center;
+}
+.card h1{
+    font-size: 60px;
+}
+.card p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.eml{
+    margin: 20px 15px;
+    display: block;
+    padding: 10px 10px;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+}
+.btn{
+    background-color: black;
+    color: white;
+    margin: 15px;
+    padding: 4px 20px;
+    border-radius: 45px;
+}
+.nam{
+    text-align: center;
+}
+.nam p{
+    text-decoration: underline;
+}
+.lst{
+    text-align: center  ;
+}
+.lst p{
+    font-size: 10px;
+}
+
